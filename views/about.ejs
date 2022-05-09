@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/styles.css" rel="stylesheet"/>
+    <link rel="icon" type="image/png" href=<%= avatar %>>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>kokonut - About</title>
+
+    <meta content="kokonut - About" property="og:title" />
+    <meta content="Hobbyist Full-stack developer | Learn more about me!" property="og:description" />
+    <meta content="https://kokonut.vercel.app/about" property="og:url" />
+		<meta property="og:type" content="website" />
+    <meta content=<%= avatar %> property="og:image" />
+    <meta id="embed-color" content="#111" data-react-helmet="true" name="theme-color" />
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <a href="/" title="Home"><img src=<%= avatar %> class="logo" alt="logo" width="50" height="50"></a>
+        <a href="/" title="Home"><i class="fa-solid fa-house-user fa-2x"></i></a>
+        <a href="/about" title="About"><i class="fa-solid fa-user fa-2x"></i></a>
+        <a href="/projects" title="Projects"><i class="fa-solid fa-book fa-2x"></i></a>
+        <a href="/proficiencies" title="Proficiencies"><i class="fa-solid fa-chart-column fa-2x"></i></a>
+        <a href="/socials" title="Socials"><i class="fa-solid fa-share-nodes fa-2x"></i></a>
+      </div>
+    </nav>
+  
+    <div class="content">
+      <div class="about-me">
+        <div>
+          <h1>About Me</h1>
+          <p>I'm a passionate Hobbyist Full-Stack NodeJS and Python Developer. I tend to code API packages, work on websites, or put together my <a href="https://github.com/kokonut27/zsq/">Python-based Language</a>. When I'm not working on code or school, I'm usually reading, texting my friends, sleeping, or <strike>trolling in</strike> playing Genshin Impact. Feel free to contact me whenever <a href="/socials">here</a>.</p>
+        </div>
+      </div>
+      <%- include('footer') %>
+    </div>
+  </body>
+</html>
