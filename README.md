@@ -1,1 +1,1 @@
-# [kokonut.me](http://kokonut.me/)
+# [kokomi.me](http://kokomi.me/)
