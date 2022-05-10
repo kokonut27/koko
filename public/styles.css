@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: 'Mukta', sans-serif;
+  background: #53aded;
+  color: #222;
+  text-align: center;
+}
+
+a {
+  color: #FFF;
+}
+
+.navbar {
+  display: inline-block;
+  margin: 0;
+  padding-bottom: 50px;
+  overflow: auto;
+  padding-top: 15px;
+}
+
+.navbar img, .navbar i {
+  vertical-align: middle;
+  display: inline-block;
+  padding: 5px;
+}
